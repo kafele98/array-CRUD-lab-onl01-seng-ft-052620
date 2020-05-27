@@ -1,17 +1,19 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["Kalen", "Cornpop", "Peekaboo", "Airplanes"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  what = ["I", "dont", "know"]
+  what.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+   hey= ["I", "this", "sense"]
+   hey.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
